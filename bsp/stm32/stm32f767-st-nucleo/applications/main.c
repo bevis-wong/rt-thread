@@ -21,7 +21,7 @@ int main(void)
     int count = 1;
     /* set LED1 pin mode to output */
     rt_pin_mode(LED1_PIN, PIN_MODE_OUTPUT);
-    rt_kprintf("pr_Git test git\r\n");
+    rt_kprintf("normal_Git test git\r\n");
     while (count++)
     {
         rt_pin_write(LED1_PIN, PIN_HIGH);
